@@ -55,13 +55,13 @@ const ProjectLayout = ({
       <Head>
         <title>
           {title
-            ? `${title} | Supabase`
+            ? `${title}`
             : selectedTable
-            ? `${selectedTable} | ${projectName} | ${organizationName} | Supabase`
+            ? `${selectedTable} | ${projectName} | ${organizationName}`
             : projectName
-            ? `${projectName} | ${organizationName} | Supabase`
+            ? `${projectName} | ${organizationName}`
             : organizationName
-            ? `${organizationName} | Supabase`
+            ? `${organizationName}`
             : 'Supabase'}
         </title>
         <meta name="description" content="Supabase Studio" />
@@ -199,7 +199,7 @@ export const ProjectLayoutNonBlocking = ({
   return (
     <ProjectContextProvider projectRef={projectRef}>
       <Head>
-        <title>{title ? `${title} | Supabase` : 'Supabase'}</title>
+        <title>{title ? `${title}` : 'Supabase'}</title>
         <meta name="description" content="Supabase Studio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

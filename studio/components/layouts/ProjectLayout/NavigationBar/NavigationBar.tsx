@@ -56,9 +56,9 @@ const NavigationBar: FC<Props> = ({}) => {
         <Link href="/projects">
           <a className="block">
             <img
-              src={`${router.basePath}/img/supabase-logo.svg`}
-              alt="Supabase"
-              className="mx-auto h-[40px] w-6 cursor-pointer rounded"
+              src={`${router.basePath}/img/zkhub-logo-green.png`}
+              alt="zkHub"
+              className="mx-auto h-[40px] cursor-pointer rounded"
             />
           </a>
         </Link>

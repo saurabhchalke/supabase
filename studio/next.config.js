@@ -204,9 +204,9 @@ const nextConfig = {
     domains: ['github.com', 'api-frameworks.vercel.sh', 'vercel.com'],
   },
   // Ref: https://nextjs.org/docs/advanced-features/output-file-tracing#caveats
-  experimental: {
-    outputFileTracingRoot: path.join(__dirname, '../../'),
-  },
+  // experimental: {
+  //   outputFileTracingRoot: path.join(__dirname, '../../'),
+  // },
 }
 
 // Export all config
